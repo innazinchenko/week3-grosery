@@ -18,7 +18,6 @@ addItem(input) {
     let listArray = this.state.groceryList
     listArray.push(input);
     this.setState ({groceryList: listArray, userInput: ""})
-    console.log(listArray)
 }
 }
 
